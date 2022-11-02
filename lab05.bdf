@@ -21,7 +21,7 @@ refer to the applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect -1720 880 -1552 896)
+	(rect -1856 888 -1688 904)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "rst" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -1728 592 -1560 608)
+	(rect -1864 600 -1696 616)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "clk" (rect 5 0 19 17)(font "Intel Clear" ))
 	(pt 168 8)
@@ -53,9 +53,25 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -1728 696 -1560 712)
+	(rect -1864 704 -1696 720)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "pause" (rect 5 0 34 17)(font "Intel Clear" ))
+	(text "pause" (rect 5 0 33 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -1864 528 -1696 544)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "SW0" (rect 5 0 29 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1087,7 +1103,7 @@ refer to the applicable agreement for further details.
 	(flipx)
 )
 (symbol
-	(rect -1392 568 -1248 648)
+	(rect -1528 576 -1384 656)
 	(text "Timing_Reference" (rect 5 0 94 12)(font "Arial" ))
 	(text "inst18" (rect 8 64 36 81)(font "Intel Clear" ))
 	(port
@@ -1109,7 +1125,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -1152 584 -1088 632)
+	(rect -1128 592 -1064 640)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst19" (rect 3 37 31 54)(font "Intel Clear" ))
 	(port
@@ -1141,7 +1157,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -1496 688 -1448 720)
+	(rect -1632 696 -1584 728)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst20" (rect 3 21 31 38)(font "Intel Clear" ))
 	(port
@@ -1166,7 +1182,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -1360 664 -1296 744)
+	(rect -1496 672 -1432 752)
 	(text "JKFF" (rect 1 0 23 10)(font "Arial" (font_size 6)))
 	(text "inst21" (rect 3 68 31 85)(font "Intel Clear" ))
 	(port
@@ -1224,7 +1240,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -1392 792 -1360 808)
+	(rect -1528 800 -1496 816)
 	(text "VCC" (rect 7 6 27 16)(font "Arial" (font_size 6)))
 	(text "inst22" (rect 3 -6 31 11)(font "Intel Clear" )(invisible))
 	(port
@@ -1240,7 +1256,7 @@ refer to the applicable agreement for further details.
 	(flipx)
 )
 (symbol
-	(rect -1256 672 -1192 720)
+	(rect -1392 680 -1328 728)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst23" (rect 3 37 31 54)(font "Intel Clear" ))
 	(port
@@ -1270,6 +1286,68 @@ refer to the applicable agreement for further details.
 		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41))
 		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76))
 		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
+	)
+)
+(symbol
+	(rect -1528 440 -1384 520)
+	(text "Timing_Reference_80kHz" (rect 5 0 131 12)(font "Arial" ))
+	(text "inst24" (rect 8 64 36 81)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 144 32)
+		(output)
+		(text "clk_xHz" (rect 0 0 38 12)(font "Arial" ))
+		(text "clk_xHz" (rect 91 27 129 39)(font "Arial" ))
+		(line (pt 144 32)(pt 128 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 128 64))
+	)
+)
+(symbol
+	(rect -1304 480 -1184 560)
+	(text "21mux" (rect 41 0 87 16)(font "Arial" (font_size 10)))
+	(text "inst25" (rect 3 69 31 86)(font "Intel Clear" ))
+	(port
+		(pt 0 56)
+		(input)
+		(text "S" (rect 22 48 30 62)(font "Arial" (font_size 8)))
+		(text "S" (rect 22 48 30 62)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 16 56))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "B" (rect 22 32 30 46)(font "Arial" (font_size 8)))
+		(text "B" (rect 22 32 30 46)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 16 40))
+	)
+	(port
+		(pt 0 24)
+		(input)
+		(text "A" (rect 22 16 31 30)(font "Arial" (font_size 8)))
+		(text "A" (rect 22 16 31 30)(font "Arial" (font_size 8)))
+		(line (pt 0 24)(pt 16 24))
+	)
+	(port
+		(pt 120 40)
+		(output)
+		(text "Y" (rect 93 32 102 46)(font "Arial" (font_size 8)))
+		(text "Y" (rect 92 32 101 46)(font "Arial" (font_size 8)))
+		(line (pt 104 40)(pt 120 40))
+	)
+	(drawing
+		(text "MULTIPLEXER" (rect 30 65 109 79)(font "Arial" (font_size 8)))
+		(line (pt 16 64)(pt 104 64))
+		(line (pt 16 16)(pt 104 16))
+		(line (pt 16 64)(pt 16 16))
+		(line (pt 104 64)(pt 104 16))
 	)
 )
 (connector
@@ -1697,118 +1775,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 744 352)
-	(pt 744 608)
-)
-(connector
-	(pt 744 608)
-	(pt -1088 608)
-)
-(connector
-	(pt -1560 600)
-	(pt -1392 600)
-)
-(connector
-	(pt -1152 600)
-	(pt -1248 600)
-)
-(connector
-	(pt -1024 888)
-	(pt -1552 888)
-)
-(connector
-	(pt -1360 704)
-	(pt -1448 704)
-)
-(connector
-	(pt -1360 688)
-	(pt -1376 688)
-)
-(connector
-	(pt -1360 720)
-	(pt -1376 720)
-)
-(connector
-	(pt -1328 664)
-	(pt -1328 656)
-)
-(connector
-	(pt -1328 656)
-	(pt -1376 656)
-)
-(connector
-	(pt -1328 744)
-	(pt -1328 752)
-)
-(connector
-	(pt -1328 752)
-	(pt -1376 752)
-)
-(connector
-	(pt -1496 704)
-	(pt -1560 704)
-)
-(connector
-	(pt -1296 688)
-	(pt -1256 688)
-)
-(connector
-	(pt -1152 616)
-	(pt -1176 616)
-)
-(connector
-	(pt -1176 616)
-	(pt -1176 696)
-)
-(connector
-	(pt -1176 696)
-	(pt -1192 696)
-)
-(connector
-	(pt -1280 1488)
-	(pt -1280 704)
-)
-(connector
-	(pt -1280 704)
-	(pt -1256 704)
-)
-(connector
-	(pt -1024 384)
-	(pt -1024 656)
-)
-(connector
-	(pt -1024 656)
-	(pt -1024 888)
-)
-(connector
-	(pt -1376 656)
-	(pt -1376 688)
-)
-(connector
-	(pt -1376 688)
-	(pt -1376 720)
-)
-(connector
-	(pt -1376 720)
-	(pt -1376 752)
-)
-(connector
-	(pt -1376 752)
-	(pt -1376 792)
-)
-(connector
-	(pt -1024 368)
-	(pt -1056 368)
-)
-(connector
-	(pt -1056 368)
-	(pt -1056 184)
-)
-(connector
-	(pt -608 184)
-	(pt -1056 184)
-)
-(connector
 	(pt 1568 1392)
 	(pt 1600 1392)
 )
@@ -1817,8 +1783,168 @@ refer to the applicable agreement for further details.
 	(pt 1600 1488)
 )
 (connector
-	(pt -1280 1488)
+	(pt -1024 896)
+	(pt -1688 896)
+)
+(connector
+	(pt -1496 712)
+	(pt -1584 712)
+)
+(connector
+	(pt -1496 696)
+	(pt -1512 696)
+)
+(connector
+	(pt -1496 728)
+	(pt -1512 728)
+)
+(connector
+	(pt -1464 672)
+	(pt -1464 664)
+)
+(connector
+	(pt -1464 664)
+	(pt -1512 664)
+)
+(connector
+	(pt -1464 752)
+	(pt -1464 760)
+)
+(connector
+	(pt -1464 760)
+	(pt -1512 760)
+)
+(connector
+	(pt -1632 712)
+	(pt -1696 712)
+)
+(connector
+	(pt -1432 696)
+	(pt -1392 696)
+)
+(connector
+	(pt -1416 1488)
+	(pt -1416 712)
+)
+(connector
+	(pt -1416 712)
+	(pt -1392 712)
+)
+(connector
 	(pt 1600 1488)
+	(pt -1416 1488)
+)
+(connector
+	(pt -1328 704)
+	(pt -1312 704)
+)
+(connector
+	(pt -1528 472)
+	(pt -1616 472)
+)
+(connector
+	(pt -1616 608)
+	(pt -1616 472)
+)
+(connector
+	(pt -1024 384)
+	(pt -1024 656)
+)
+(connector
+	(pt -1024 656)
+	(pt -1024 896)
+)
+(connector
+	(pt -1512 664)
+	(pt -1512 696)
+)
+(connector
+	(pt -1512 696)
+	(pt -1512 728)
+)
+(connector
+	(pt -1512 728)
+	(pt -1512 760)
+)
+(connector
+	(pt -1512 760)
+	(pt -1512 800)
+)
+(connector
+	(pt -1696 608)
+	(pt -1616 608)
+)
+(connector
+	(pt -1616 608)
+	(pt -1528 608)
+)
+(connector
+	(pt -1024 368)
+	(pt -1088 368)
+)
+(connector
+	(pt -1088 368)
+	(pt -1088 184)
+)
+(connector
+	(pt -608 184)
+	(pt -1088 184)
+)
+(connector
+	(pt 744 352)
+	(pt 744 616)
+)
+(connector
+	(pt -1312 704)
+	(pt -1312 624)
+)
+(connector
+	(pt 744 616)
+	(pt -1064 616)
+)
+(connector
+	(pt -1312 624)
+	(pt -1128 624)
+)
+(connector
+	(pt -1160 608)
+	(pt -1128 608)
+)
+(connector
+	(pt -1384 472)
+	(pt -1360 472)
+)
+(connector
+	(pt -1160 520)
+	(pt -1184 520)
+)
+(connector
+	(pt -1160 608)
+	(pt -1160 520)
+)
+(connector
+	(pt -1360 504)
+	(pt -1360 472)
+)
+(connector
+	(pt -1360 504)
+	(pt -1304 504)
+)
+(connector
+	(pt -1360 608)
+	(pt -1384 608)
+)
+(connector
+	(pt -1360 608)
+	(pt -1360 520)
+)
+(connector
+	(pt -1360 520)
+	(pt -1304 520)
+)
+(connector
+	(pt -1696 536)
+	(pt -1304 536)
 )
 (junction (pt -1024 656))
 (junction (pt -616 656))
@@ -1836,6 +1962,7 @@ refer to the applicable agreement for further details.
 (junction (pt 712 720))
 (junction (pt 1008 720))
 (junction (pt -840 720))
-(junction (pt -1376 688))
-(junction (pt -1376 720))
-(junction (pt -1376 752))
+(junction (pt -1512 696))
+(junction (pt -1512 728))
+(junction (pt -1512 760))
+(junction (pt -1616 608))
