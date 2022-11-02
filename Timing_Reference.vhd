@@ -19,7 +19,7 @@ process(clk)
 begin
 if(clk'event and clk='1') then
 count <=count+1;
-if (count = 50000000/2) then
+if (count = 50000000/2000) then
 tmp <= NOT tmp;
 count <= 1;
 end if;
