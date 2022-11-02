@@ -1,0 +1,12 @@
+#ignoring files
+
+db/
+incremental_db/
+output_files/
+simulation/
+*.bak
+*.frf
+*.qsf
+*.vwf
+*.swp
+*.un~
