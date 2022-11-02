@@ -2172,6 +2172,31 @@ refer to the applicable agreement for further details.
 	)
 	(flipy_rotate90)
 )
+(symbol
+	(rect -1632 880 -1584 912)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst32" (rect 3 21 31 38)(font "Intel Clear" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
 (connector
 	(pt 816 352)
 	(pt 744 352)
@@ -2516,10 +2541,6 @@ refer to the applicable agreement for further details.
 	(pt 1600 1488)
 )
 (connector
-	(pt -1024 896)
-	(pt -1688 896)
-)
-(connector
 	(pt -1496 712)
 	(pt -1584 712)
 )
@@ -2578,14 +2599,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt -1616 608)
 	(pt -1616 472)
-)
-(connector
-	(pt -1024 384)
-	(pt -1024 656)
-)
-(connector
-	(pt -1024 656)
-	(pt -1024 896)
 )
 (connector
 	(pt -1512 664)
@@ -2935,6 +2948,22 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1056 1064)
 	(pt 1056 1088)
+)
+(connector
+	(pt -1688 896)
+	(pt -1632 896)
+)
+(connector
+	(pt -1024 384)
+	(pt -1024 656)
+)
+(connector
+	(pt -1024 656)
+	(pt -1024 896)
+)
+(connector
+	(pt -1584 896)
+	(pt -1024 896)
 )
 (junction (pt -1024 656))
 (junction (pt -616 656))
