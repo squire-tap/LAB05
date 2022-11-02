@@ -34,6 +34,7 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -1912 904 -1856 928))
 )
 (pin
 	(input)
@@ -50,6 +51,7 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -1928 616 -1864 640))
 )
 (pin
 	(input)
@@ -66,6 +68,7 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -1920 720 -1864 744))
 )
 (pin
 	(input)
@@ -82,6 +85,7 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -1928 544 -1864 568))
 )
 (pin
 	(output)
@@ -99,6 +103,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 968 1264 1032 1288))
 )
 (pin
 	(output)
@@ -116,6 +121,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 984 1264 1048 1288))
 )
 (pin
 	(output)
@@ -133,6 +139,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 1000 1264 1064 1288))
 )
 (pin
 	(output)
@@ -150,6 +157,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 1016 1264 1080 1288))
 )
 (pin
 	(output)
@@ -167,6 +175,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 1032 1264 1096 1288))
 )
 (pin
 	(output)
@@ -184,6 +193,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 1048 1264 1112 1288))
 )
 (pin
 	(output)
@@ -201,6 +211,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 1064 1264 1128 1288))
 )
 (pin
 	(output)
@@ -218,6 +229,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 672 1264 736 1288))
 )
 (pin
 	(output)
@@ -235,6 +247,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 688 1264 752 1288))
 )
 (pin
 	(output)
@@ -252,6 +265,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 704 1264 768 1288))
 )
 (pin
 	(output)
@@ -269,6 +283,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 720 1264 784 1288))
 )
 (pin
 	(output)
@@ -286,6 +301,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 736 1264 800 1288))
 )
 (pin
 	(output)
@@ -303,6 +319,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 752 1264 816 1288))
 )
 (pin
 	(output)
@@ -320,6 +337,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 768 1264 832 1288))
 )
 (pin
 	(output)
@@ -337,6 +355,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 344 1272 408 1296))
 )
 (pin
 	(output)
@@ -354,6 +373,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 360 1272 424 1296))
 )
 (pin
 	(output)
@@ -371,6 +391,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 376 1272 440 1296))
 )
 (pin
 	(output)
@@ -388,6 +409,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 392 1272 456 1296))
 )
 (pin
 	(output)
@@ -405,6 +427,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 408 1272 472 1296))
 )
 (pin
 	(output)
@@ -422,6 +445,7 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 424 1272 488 1296))
 )
 (pin
 	(output)
@@ -439,12 +463,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect 440 1272 504 1296))
 )
 (pin
 	(output)
 	(rect -136 1112 -120 1288)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h40" (rect 0 89 17 106)(font "Intel Clear" )(vertical))
+	(text "h30" (rect 0 89 17 106)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -456,12 +481,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -120 1288 -56 1312))
 )
 (pin
 	(output)
 	(rect -120 1112 -104 1288)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h41" (rect 1 88 18 105)(font "Intel Clear" )(vertical))
+	(text "h31" (rect 1 88 18 105)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -473,12 +499,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -104 1288 -40 1312))
 )
 (pin
 	(output)
 	(rect -104 1112 -88 1288)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h42" (rect 1 88 18 105)(font "Intel Clear" )(vertical))
+	(text "h32" (rect 1 88 18 105)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -490,12 +517,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -88 1288 -24 1312))
 )
 (pin
 	(output)
 	(rect -88 1112 -72 1288)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h43" (rect 1 88 18 105)(font "Intel Clear" )(vertical))
+	(text "h33" (rect 1 88 18 105)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -507,12 +535,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -72 1288 -8 1312))
 )
 (pin
 	(output)
 	(rect -72 1112 -56 1288)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h44" (rect 1 88 18 105)(font "Intel Clear" )(vertical))
+	(text "h34" (rect 1 88 18 105)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -524,12 +553,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -56 1288 8 1312))
 )
 (pin
 	(output)
 	(rect -56 1112 -40 1288)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h45" (rect 2 87 19 104)(font "Intel Clear" )(vertical))
+	(text "h35" (rect 2 87 19 104)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -541,12 +571,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -40 1288 24 1312))
 )
 (pin
 	(output)
 	(rect -40 1112 -24 1288)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h46" (rect 1 88 18 105)(font "Intel Clear" )(vertical))
+	(text "h36" (rect 1 88 18 105)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -558,12 +589,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -24 1288 40 1312))
 )
 (pin
 	(output)
 	(rect -480 1104 -464 1280)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h50" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
+	(text "h40" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -575,12 +607,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -464 1280 -400 1304))
 )
 (pin
 	(output)
 	(rect -464 1104 -448 1280)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h51" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
+	(text "h41" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -592,12 +625,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -448 1280 -384 1304))
 )
 (pin
 	(output)
 	(rect -448 1104 -432 1280)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h52" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
+	(text "h42" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -609,12 +643,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -432 1280 -368 1304))
 )
 (pin
 	(output)
 	(rect -432 1104 -416 1280)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h53" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
+	(text "h43" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -626,12 +661,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -416 1280 -352 1304))
 )
 (pin
 	(output)
 	(rect -416 1104 -400 1280)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h54" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
+	(text "h44" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -643,12 +679,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -400 1280 -336 1304))
 )
 (pin
 	(output)
 	(rect -400 1104 -384 1280)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h55" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
+	(text "h45" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -660,12 +697,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -384 1280 -320 1304))
 )
 (pin
 	(output)
 	(rect -384 1104 -368 1280)
 	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
-	(text "h56" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
+	(text "h46" (rect -1 90 16 107)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -677,12 +715,13 @@ refer to the applicable agreement for further details.
 		(line (pt 4 78)(pt 8 82))
 	)
 	(rotate270)
+	(annotation_block (location)(rect -368 1280 -304 1304))
 )
 (pin
 	(output)
 	(rect -896 1088 -880 1264)
 	(text "OUTPUT" (rect 0 1 10 39)(font "Arial" (font_size 6))(vertical))
-	(text "h60" (rect 1 89 18 106)(font "Intel Clear" )(vertical))
+	(text "h50" (rect 1 89 18 106)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -699,7 +738,7 @@ refer to the applicable agreement for further details.
 	(output)
 	(rect -880 1088 -864 1264)
 	(text "OUTPUT" (rect 0 1 10 39)(font "Arial" (font_size 6))(vertical))
-	(text "h61" (rect 1 89 18 106)(font "Intel Clear" )(vertical))
+	(text "h51" (rect 1 89 18 106)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -716,7 +755,7 @@ refer to the applicable agreement for further details.
 	(output)
 	(rect -864 1088 -848 1264)
 	(text "OUTPUT" (rect 0 1 10 39)(font "Arial" (font_size 6))(vertical))
-	(text "h62" (rect 1 89 18 106)(font "Intel Clear" )(vertical))
+	(text "h52" (rect 1 89 18 106)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -733,7 +772,7 @@ refer to the applicable agreement for further details.
 	(output)
 	(rect -848 1088 -832 1264)
 	(text "OUTPUT" (rect 0 1 10 39)(font "Arial" (font_size 6))(vertical))
-	(text "h63" (rect 3 87 15 104)(font "Arial" )(vertical))
+	(text "h53" (rect 4 86 16 103)(font "Arial" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -750,7 +789,7 @@ refer to the applicable agreement for further details.
 	(output)
 	(rect -832 1088 -816 1264)
 	(text "OUTPUT" (rect 0 1 10 39)(font "Arial" (font_size 6))(vertical))
-	(text "h64" (rect 1 89 18 106)(font "Intel Clear" )(vertical))
+	(text "h54" (rect 1 89 18 106)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -767,7 +806,7 @@ refer to the applicable agreement for further details.
 	(output)
 	(rect -816 1088 -800 1264)
 	(text "OUTPUT" (rect 0 1 10 39)(font "Arial" (font_size 6))(vertical))
-	(text "h65" (rect 1 89 18 106)(font "Intel Clear" )(vertical))
+	(text "h55" (rect 1 89 18 106)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
@@ -784,7 +823,7 @@ refer to the applicable agreement for further details.
 	(output)
 	(rect -800 1088 -784 1264)
 	(text "OUTPUT" (rect 0 1 10 39)(font "Arial" (font_size 6))(vertical))
-	(text "h66" (rect 2 88 19 105)(font "Intel Clear" )(vertical))
+	(text "h56" (rect 2 88 19 105)(font "Intel Clear" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 8 0)(pt 8 52))
