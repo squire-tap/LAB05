@@ -39,9 +39,9 @@ refer to the applicable agreement for further details.
 	)
 	(port
 		(pt 152 32)
-		(bidir)
-		(text "count[0..3]" (rect 0 0 41 12)(font "Arial" ))
-		(text "count[0..3]" (rect 90 27 131 39)(font "Arial" ))
+		(output)
+		(text "count[3..0]" (rect 0 0 41 12)(font "Arial" ))
+		(text "count[3..0]" (rect 90 27 131 39)(font "Arial" ))
 		(line (pt 152 32)(pt 136 32)(line_width 3))
 	)
 	(drawing

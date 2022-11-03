@@ -4,14 +4,14 @@ use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;  
 
 entity cont_mod_6 is  
-    Port ( clock : in std_logic;  
-           --reset : in std_logic;  
+    Port ( clk : in std_logic;  
+           rst : in std_logic;  
            count : out std_logic_vector(3 downto 0)  
     );  
 end cont_mod_6;
   
 architecture rtl of cont_mod_6 is  
-COMPONENT jkff  
+COMPONENT meu_jkff  
     PORT( clock : in std_logic;  
           reset : in std_logic;  
           j     : in std_logic;  
@@ -24,36 +24,36 @@ signal temp : std_logic_vector(3 downto 0) := "0000";
 signal reset : std_logic := '0';
 
 begin  
-d0 : jkff  
+d0 : meu_jkff  
      port map (  
-       reset  => reset,  
-       clock  => clock,  
+       reset  => rst or reset,  
+       clock  => clk,  
        j      => '1',  
        k      => '1',        
        q      => temp(3)  
     );  
 
-d1 : jkff  
+d1 : meu_jkff  
      port map (  
-       reset  => reset,  
+       reset  => rst or reset,  
        clock  => temp(3),  
        j      => '1',  
        k      => '1',      
        q      => temp(2)  
     );  
 
-d2 : jkff  
+d2 : meu_jkff  
      port map (  
-       reset  => reset,  
+       reset  => rst or reset,  
        clock  => temp(2),  
        j      => '1',  
        k      => '1',  
        q      => temp(1)  
     );  
 
-d3 : jkff  
+d3 : meu_jkff  
      port map (  
-       reset  => reset,  
+       reset  => rst or reset,  
        clock  => temp(1),  
        j      => '1',  
        k      => '1',  
