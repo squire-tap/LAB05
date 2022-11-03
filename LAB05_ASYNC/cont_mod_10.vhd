@@ -27,7 +27,7 @@ begin
 d0 : meu_jkff  
      port map (  
        reset  => rst or reset,  
-       clock  => clk,  
+       clock  => clk,  --clock chega no ff menos significativo
        j      => '1',  
        k      => '1',        
        q      => temp(3)  
@@ -36,7 +36,7 @@ d0 : meu_jkff
 d1 : meu_jkff  
      port map (  
        reset  => rst or reset,  
-       clock  => temp(3),  
+       clock  => temp(3),  --clock do ff anterior
        j      => '1',  
        k      => '1',      
        q      => temp(2)  
@@ -45,7 +45,7 @@ d1 : meu_jkff
 d2 : meu_jkff  
      port map (  
        reset  => rst or reset,  
-       clock  => temp(2),  
+       clock  => temp(2),  --clock do ff anterior
        j      => '1',  
        k      => '1',  
        q      => temp(1)  
@@ -54,7 +54,7 @@ d2 : meu_jkff
 d3 : meu_jkff  
      port map (  
        reset  => rst or reset,  
-       clock  => temp(1),  
+       clock  => temp(1),  --clock do ff anterior
        j      => '1',  
        k      => '1',  
        q      => temp(0)  

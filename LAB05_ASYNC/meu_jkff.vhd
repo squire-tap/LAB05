@@ -1,3 +1,4 @@
+--http://vhsichdl.blogspot.com/2013/04/vhdl-code-for-asynchronous-counter.html
 library IEEE;  
 use IEEE.STD_LOGIC_1164.ALL;  
 use IEEE.STD_LOGIC_ARITH.ALL;  
