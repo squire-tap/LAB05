@@ -14,7 +14,7 @@ architecture behavioral of Meu_RA_Break is
 begin
     process(a,b,c,d,e,f)
     begin
-        if(a="0010" and b="0011" and c="0101" and d="0011" and e="0110" and f="0110") then
+        if(a="0100" and b="1100" and c="1010" and d="1100" and e="0110" and f="0110") then
             pause <= '1';
         else
             pause <= '0';

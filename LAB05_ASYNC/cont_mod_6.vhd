@@ -27,46 +27,45 @@ begin
 d0 : meu_jkff  
      port map (  
        reset  => rst or reset,  
-       clock  => clk,  
+       clock  => not clk,  
        j      => '1',  
        k      => '1',        
-       q      => temp(3)  
+       q      => temp(0)  
     );  
 
 d1 : meu_jkff  
      port map (  
        reset  => rst or reset,  
-       clock  => temp(3),  
+       clock  => not temp(0),  
        j      => '1',  
        k      => '1',      
-       q      => temp(2)  
+       q      => temp(1)  
     );  
 
 d2 : meu_jkff  
      port map (  
        reset  => rst or reset,  
-       clock  => temp(2),  
+       clock  => not temp(1),  
        j      => '1',  
        k      => '1',  
-       q      => temp(1)  
+       q      => temp(2)  
     );  
 
 d3 : meu_jkff  
      port map (  
        reset  => rst or reset,  
-       clock  => temp(1),  
+       clock  => not temp(2),  
        j      => '1',  
        k      => '1',  
-       q      => temp(0)  
+       q      => temp(3)  
     );  
 
 --Reseta quando a saida dos ff's chega em 6
-reset <= '1' when (temp(0) = '0' and temp(1) = '1' and temp(2) = '1' and temp(3) = '0')
-    else '0';
+reset <= ((not temp(0)) and temp(1) and temp(2) and (not temp(3)));
 
-count(3) <= temp(0);  
-count(2) <= temp(1);  
-count(1) <= temp(2);  
-count(0) <= temp(3);  
+count(3) <= temp(3);  
+count(2) <= temp(2);  
+count(1) <= temp(1);  
+count(0) <= temp(0);  
 
  end rtl;  
